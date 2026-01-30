@@ -1,0 +1,31 @@
+ <!--Interactive Registration Form -->
+<!DOCTYPE html>  
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <form id="registerForm" novalidate>
+    <h2>Registrierung</h2>
+
+    <div class="field">
+      <label for="email">E-Mail</label>
+      <input type="email" id="email" />
+      <small class="error"></small>
+    </div>
+
+    <div class="field">
+      <label for="password">Passwort</label>
+      <input type="password" id="password" />
+      <small class="error"></small>
+    </div>
+
+    <button type="submit" disabled>Registrieren</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
